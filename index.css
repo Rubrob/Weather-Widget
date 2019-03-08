@@ -1,0 +1,86 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(55, 15, 199), rgb(101, 15, 199), rgb(207, 16, 96) );
+}
+
+#weather{
+    background: linear-gradient(45deg ,rgba(223, 223, 223, 0.5),rgba(163, 163, 163, 0.2));
+    max-width: 370px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #eee;
+    border-radius: 10px;
+}
+.city{
+    padding-top: 50px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 27px;
+}
+.description{
+    margin: 5px;
+    font-weight: 100;
+}
+.currentTemp{
+    position: relative;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 65px;
+    font-weight: 330;
+}
+.day{
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 50%;
+    margin: -20px 0;
+}
+.maxMi{
+    display: inline-block;
+    text-align: right;
+    padding-right: 25px;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 50%;
+    margin: -20px 0;
+}
+
+.weatherDetails{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    color: #eee;
+    text-align: left;
+    box-sizing: border-box;
+}
+.weatherDetails li{
+    width: calc(50% - 10px);
+    padding: 3px 8px;
+    margin: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px -1px rgb(95, 95, 95);
+}
+.weatherDetails h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+.weatherDetails p{
+    font-size: 27px;
+    padding: 0;
+    margin: 0;
+}
